@@ -3,7 +3,7 @@ function createContextMenu() {
   chrome.contextMenus.removeAll(() => {
     chrome.contextMenus.create({
       id: "saveNote",
-      title: "Add to NoteD",
+      title: "Add to noteD",
       contexts: ["selection"]
     });
   });

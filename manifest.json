@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "NoteD",
+  "name": "noteD",
   "version": "1.0",
   "description": "Save highlighted text as notes in a todo list.",
   "permissions": ["activeTab", "contextMenus", "scripting", "storage", "tabs"],

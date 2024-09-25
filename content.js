@@ -1,5 +1,5 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === "getNoteData") {
+  if (message.action === "getnoteData") {
     let selectionText = window.getSelection().toString();
     if (selectionText) {
       let title = prompt("Enter title (optional):", "");

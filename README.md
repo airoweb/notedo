@@ -1,15 +1,15 @@
-# NoteD | Save Notes Effortlessly
+# noteD | Save Notes Effortlessly
 
-<img src="icons/icon128.png" width="200" alt="NoteD">
+<img src="icons/logo.png" width="200" alt="noteD">
 
 ### Description
 
-NoteD is a Google Chrome extension that allows you to save highlighted text as notes in a to-do list. Easily capture important information while browsing and organize your notes with titles, due dates, and completion status. Access your notes quickly via the popup or in a full-page view.
+noteD is a Google Chrome extension that allows you to save highlighted text as notes in a to-do list. Easily capture important information while browsing and organize your notes with titles, due dates, and completion status. Access your notes quickly via the popup or in a full-page view.
 
 ### Download and Install
 
 1. **Download the ZIP Package**:
-   - Download the NoteD extension code from the source repository or obtain the ZIP package from the developer.
+   - Download the noteD extension code from the source repository or obtain the ZIP package from the developer.
 2. **Extract the Files**:
    - Unzip the downloaded package to a folder on your computer.
 3. **Load the Extension in Chrome**:
@@ -25,12 +25,12 @@ NoteD is a Google Chrome extension that allows you to save highlighted text as n
 
 1. **Save Highlighted Text**:
    - Highlight text on any webpage.
-   - Right-click and select **Add to NoteD** from the context menu.
+   - Right-click and select **Add to noteD** from the context menu.
    - The selected text will be saved as a new note.
 
 2. **Access Your Notes**:
-   - Click on the **NoteD** icon in the Chrome toolbar to open the popup.
-   - For a larger interface, click the external link icon next to the NoteD title in the popup to open the full-page view.
+   - Click on the **noteD** icon in the Chrome toolbar to open the popup.
+   - For a larger interface, click the external link icon next to the noteD title in the popup to open the full-page view.
 
 3. **Organize Notes**:
    - Use the **Notes** and **Done** tabs to switch between active and completed notes.
@@ -51,7 +51,7 @@ NoteD is a Google Chrome extension that allows you to save highlighted text as n
 ### Changelog
 
 * **Version 1.0**
-  * Initial release of NoteD.
+  * Initial release of noteD.
   * Save highlighted text as notes via the context menu.
   * Organize notes with titles, due dates, and completion status.
   * Access notes through a popup or full-page view.
