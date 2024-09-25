@@ -57,3 +57,34 @@ noteD is a Google Chrome extension that allows you to save highlighted text as n
   * Access notes through a popup or full-page view.
   * Search functionality to filter notes.
   * Tabbed interface for active and completed notes.
+
+### Privacy
+noteD does not collect or transmit any user data to external servers. All data (notes, titles, due dates, etc.) are stored locally within the user's browser using Chrome's storage API, ensuring user privacy and control over their own data.
+
+1. Overview
+
+noteD is a Chrome extension that allows users to save highlighted text as notes. This Privacy Policy explains how noteD handles user data and ensures compliance with privacy regulations.
+
+2. Data Collection and Usage
+
+noteD does not collect, store, or transmit any personally identifiable information (PII) or sensitive user data. All user data, including notes, titles, due dates, and completion statuses, are stored locally in the user's browser using Chrome's storage API. This data is never shared with third parties or transmitted to external servers.
+
+3. Data Access
+
+noteD accesses user-highlighted text to create notes. This data is only used to fulfill the user’s request to save a note and is stored locally in the browser. noteD does not access any other user data, such as browsing history or website activity.
+
+4. Data Retention
+
+All data related to the extension (i.e., notes) is stored locally and is retained until the user deletes it manually or uninstalls the extension.
+
+5. Security
+
+Since noteD does not transmit or store data on external servers, there is no risk of data breaches from external sources. Chrome’s storage API ensures that data is securely stored within the browser.
+
+6. Third-Party Services
+
+noteD does not integrate with any third-party services or use analytics or tracking tools.
+
+7. Consent and User Control
+
+All actions performed by noteD are user-initiated. Users have full control over what data is saved (e.g., notes) and can delete their data at any time by clearing the extension's stored data or uninstalling it.
