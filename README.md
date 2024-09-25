@@ -19,7 +19,7 @@ noteD is a Google Chrome extension that allows you to save highlighted text as n
 
 ### Demo
 
-
+<img src="demo.gif">
 
 ### Usage
 
