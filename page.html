@@ -15,6 +15,12 @@
 <body class="page">
   <div id="header">
     <h1>NoteD - Full Page</h1>
+    <!-- Add "Add New Note" icon to header -->
+    <div id="headerIcons">
+      <a id="addNoteButton" href="#" title="Add New Note">
+        <i class="fas fa-plus"></i>
+      </a>
+    </div>
   </div>
   <!-- Add search input -->
   <div id="searchContainer">
@@ -29,7 +35,11 @@
     <ul id="notesList"></ul>
   </div>
   <div id="footer">
-    <button id="addNoteButton">Add New Note</button>
+    <!-- Remove "Add New Note" button from footer -->
+    <!-- Add GitHub project link and version -->
+    <div id="projectInfo">
+      <a href="https://github.com/airoweb/noteD" target="_blank">NoteD on GitHub</a> | Version: 1.0
+    </div>
   </div>
   <script src="popup.js"></script>
 </body>

@@ -3,17 +3,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  /* Use Flexbox layout */
-  display: flex;
-  flex-direction: column;
-  width: 500px; /* Set the desired width */
-  max-height: 800px; /* Increase max height */
-  overflow: hidden; /* Hide overflow to prevent double scroll */
+  overflow: hidden; /* Prevent body from scrolling */
 }
 
 /* Styles specific to the popup */
 body.popup {
-  /* Remove fixed height to allow content to dictate height */
+  width: 500px; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header styles */
@@ -31,14 +30,25 @@ body.popup {
   flex: 1;
 }
 
-#openInTabLink {
+/* Header icons */
+#headerIcons {
+  display: flex;
+  align-items: center;
+}
+
+#headerIcons a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  margin-left: 15px;
 }
 
-#openInTabLink:hover {
+#headerIcons a:hover {
   color: #e8e8e8;
+}
+
+#headerIcons a i {
+  pointer-events: none;
 }
 
 /* Search container */
@@ -46,7 +56,6 @@ body.popup {
   padding: 10px;
 }
 
-/* Search input */
 #searchInput {
   width: 100%;
   padding: 8px;
@@ -83,14 +92,22 @@ body.popup {
 #notesContainer {
   padding: 10px;
   overflow-y: auto;
-  /* Allow the container to expand and take available space */
   flex: 1;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+/* Adjust height for popup */
+body.popup #notesContainer {
+  height: calc(100% - 220px); /* Adjusted for header, search, tabs, and footer */
+}
+
+/* For body.page, ensure notesContainer fills available space */
+body.page #notesContainer {
+  height: auto;
+}
+
+/* For body.page, ensure footer stays at the bottom */
+body.page #footer {
+  margin-top: auto;
 }
 
 /* Note item styles */
@@ -122,7 +139,7 @@ li:last-child {
 
 .creation-date-icon {
   color: #555;
-  margin-right: 5px;
+  margin-right: 5px; /* Adjusted for spacing */
   cursor: pointer;
 }
 
@@ -207,23 +224,38 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 10px;
   background-color: #f9f9f9;
   border-top: 1px solid #ccc;
 }
 
-#addNoteButton {
-  padding: 10px 20px;
-  font-size: 14px;
-  background-color: #4CAF50;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
+#projectInfo {
+  font-size: 12px;
 }
 
-#addNoteButton:hover {
-  background-color: #45a049;
+#projectInfo a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#projectInfo a:hover {
+  text-decoration: underline;
+}
+
+/* Project info styles */
+#projectInfo {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+#projectInfo a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#projectInfo a:hover {
+  text-decoration: underline;
 }
 
 /* Scrollbar styling */

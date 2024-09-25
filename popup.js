@@ -4,9 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setupEventListeners() {
-  // Add event listener for the Add New Note button
+  // Update the selector for the Add New Note button
   const addNoteButton = document.getElementById('addNoteButton');
-  addNoteButton.addEventListener('click', () => {
+  addNoteButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior
     let newNoteText = prompt('Enter your note:');
     if (newNoteText) {
       let createdAt = new Date().toISOString();

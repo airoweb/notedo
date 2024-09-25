@@ -15,10 +15,15 @@
 <body class="popup">
   <div id="header">
     <h1>NoteD</h1>
-    <!-- Move the Open in New Tab icon next to the title -->
-    <a id="openInTabLink" href="#" title="Open in new tab">
-      <i class="fas fa-external-link-alt"></i>
-    </a>
+    <!-- Move "Add New Note" icon and "Open in New Tab" icon to the header -->
+    <div id="headerIcons">
+      <a id="addNoteButton" href="#" title="Add New Note">
+        <i class="fas fa-plus"></i>
+      </a>
+      <a id="openInTabLink" href="#" title="Open in new tab">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
   </div>
   <!-- Add search input -->
   <div id="searchContainer">
@@ -33,7 +38,11 @@
     <ul id="notesList"></ul>
   </div>
   <div id="footer">
-    <button id="addNoteButton">Add New Note</button>
+    <!-- Remove "Add New Note" button from footer -->
+    <!-- Add GitHub project link and version -->
+    <div id="projectInfo">
+      <a href="https://github.com/airoweb/noteD" target="_blank">NoteD on GitHub</a> | Version: 1.0
+    </div>
   </div>
   <script src="popup.js"></script>
 </body>
