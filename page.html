@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NoteD - Full Page</title>
+  <link rel="stylesheet" href="popup.css">
+  <!-- Include Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body class="page">
+  <div id="header">
+    <h1>NoteD - Full Page</h1>
+  </div>
+  <!-- Add search input -->
+  <div id="searchContainer">
+    <input type="text" id="searchInput" placeholder="Search notes...">
+  </div>
+  <!-- Tab navigation -->
+  <div id="tabContainer">
+    <button class="tab-button active" data-tab="notes">Notes</button>
+    <button class="tab-button" data-tab="done">Done</button>
+  </div>
+  <div id="notesContainer">
+    <ul id="notesList"></ul>
+  </div>
+  <div id="footer">
+    <button id="addNoteButton">Add New Note</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
