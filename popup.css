@@ -19,7 +19,7 @@ body.popup {
 #header {
   display: flex;
   align-items: center;
-  background-color: #4CAF50;
+  background-color: #10c0df;
   padding: 15px;
 }
 
@@ -81,7 +81,7 @@ body.popup {
 
 .tab-button.active {
   background: #e0e0e0;
-  border-bottom: 2px solid #4CAF50;
+  border-bottom: 2px solid #10c0df;
 }
 
 .tab-button:hover {
@@ -235,7 +235,7 @@ li:last-child {
 }
 
 #projectInfo a {
-  color: #4CAF50;
+  color: #10c0df;
   text-decoration: none;
 }
 
@@ -250,7 +250,7 @@ li:last-child {
 }
 
 #projectInfo a {
-  color: #4CAF50;
+  color: #10c0df;
   text-decoration: none;
 }
 
